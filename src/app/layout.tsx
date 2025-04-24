@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "https://kasia-jankowska-web.pl/img/og-img.png",
+        url: "https://kasia-jankowska-web.pl/img/portfolio-og-image.png",
         width: 400,
         height: 225,
         alt: "Large image for Kasia Jankowska",
