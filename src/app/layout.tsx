@@ -19,18 +19,18 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "https://relaxbad.pl/img/og-img.png",
+        url: "https://kasia-jankowska-web.pl/img/og-img.png",
         width: 400,
         height: 225,
-        alt: "Large image for Relaxbad",
+        alt: "Large image for Kasia Jankowska",
       },
     ],
     type: "website",
     locale: "pl_PL",
     title: "Strony internetowe | Kasia Jankowska",
     description: "Strona wizytówka dla twojej firmy",
-    url: "https://k-jankowska-web.pl",
-    siteName: "k-jankowska-web.pl",
+    url: "https://kasia-jankowska-web.pl",
+    siteName: "kasia-jankowska-web.pl",
   },
   twitter: {},
 };
