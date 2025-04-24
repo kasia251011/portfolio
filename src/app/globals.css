@@ -3,24 +3,62 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #9c73ff;
+  --primary-light: #f3edff;
+  --primary-dark: #5d3e96;
+  --secondary: #fae17e;
+  --light-grey: #f4f8f9;
+}
+
+@utility container {
+  padding-inline: 10px;
+  margin-inline: auto;
+}
+
+@utility container-sm {
+  padding-inline: 100px;
+  margin-inline: auto;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-dark: var(--primary-dark);
+
+  --color-secondary: var(--secondary);
+  --color-light-grey: var(--light-grey);
+  --font-primary: var(--font-poppins);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+h1 {
+  @apply text-5xl md:text-7xl font-semibold;
+}
+
+h2 {
+  @apply text-4xl md:text-5xl leading-10 md:leading-16 font-bold;
+}
+
+h3 {
+  @apply text-xl font-semibold;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+  overflow-x: hidden;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply font-primary;
+}
+
+@layer components {
+  .footer-text {
+    @apply text-sm text-gray-600;
+  }
 }
