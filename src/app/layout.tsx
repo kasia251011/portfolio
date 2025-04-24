@@ -20,15 +20,16 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://kasia-jankowska-web.pl/img/portfolio-og-image.png",
-        width: 400,
-        height: 225,
-        alt: "Large image for Kasia Jankowska",
+        width: 1200,
+        height: 630,
+        alt: "Strony internetowe | Kasia Jankowska",
       },
     ],
     type: "website",
     locale: "pl_PL",
     title: "Strony internetowe | Kasia Jankowska",
-    description: "Strona wizytówka dla twojej firmy",
+    description:
+      "Stworzę dla ciebie stronę internetową, która poprawi twoją widoczność w sieci.",
     url: "https://kasia-jankowska-web.pl",
     siteName: "kasia-jankowska-web.pl",
   },
