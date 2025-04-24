@@ -23,7 +23,7 @@ const HeroSection = () => (
         <p className="mb-5 text-sm text-primary-dark">Ostatnie realizacje</p>
         <Image src={ARROW} alt="Arrow down" className="animate-bounce" />
       </div>
-      <DevGirl className="absolute -right-0 w-80 md:w-100 lg:w-auto bottom-30 lg:bottom-40 " />
+      <DevGirl className="absolute -right-0 w-60 sm:w-80 md:w-100 lg:w-auto bottom-0 md:bottom-10 lg:bottom-40" />
     </header>
     <Image
       src={LINE_1}
