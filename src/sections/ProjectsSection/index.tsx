@@ -24,7 +24,10 @@ const PROJECTS = [
 ];
 
 const ProjectsSection = () => (
-  <div className="container grid grid-cols-1 md:grid-cols-3 gap-6">
+  <div
+    className="container grid grid-cols-1 md:grid-cols-3 gap-6"
+    id="projekty"
+  >
     {PROJECTS.map(({ alt, href, src }, index) => (
       <FadeInWrapper key={index} delay={index * 0.5}>
         <Link href={href} target="_blank">

@@ -5,6 +5,7 @@ import LINE_1 from "@/assets/lines/line-1.svg";
 import LINE_1_MD from "@/assets/lines/line-1-md.svg";
 import LINE_1_SM from "@/assets/lines/line-1-sm.svg";
 import DevGirl from "@/components/grafics/DevGirl";
+import Link from "next/link";
 
 const HeroSection = () => (
   <div className="relative">
@@ -19,11 +20,13 @@ const HeroSection = () => (
           <br /> dla Ciebie
         </h1>
       </div>
-      <div className="self-center flex flex-col items-center">
-        <p className="mb-5 text-sm text-primary-dark">Ostatnie realizacje</p>
-        <Image src={ARROW} alt="Arrow down" className="animate-bounce" />
-      </div>
-      <DevGirl className="absolute -right-0 w-60 sm:w-80 md:w-100 lg:w-auto bottom-0 md:bottom-10 lg:bottom-40" />
+      <Link href="#projekty">
+        <div className="self-center flex flex-col items-center cursor-pointer z-20">
+          <p className="mb-5 text-sm text-primary-dark">Ostatnie realizacje</p>
+          <Image src={ARROW} alt="Arrow down" className="animate-bounce" />
+        </div>
+      </Link>
+      <DevGirl className="absolute -right-0 w-60 sm:w-80 md:w-100 lg:w-auto -bottom-10 md:bottom-10 lg:bottom-40 z-10 pointer-events-none" />
     </header>
     <Image
       src={LINE_1}

@@ -7,7 +7,9 @@ const Nav = () => (
   <nav className="fixed w-full py-2 z-100">
     <div className="container flex justify-between">
       <Link href="/#!">
-        <Image src={LOGO} alt="Logo Relaxbad" className="w-7 h-auto" />
+        <div className="bg-white p-2 rounded-full">
+          <Image src={LOGO} alt="Logo Relaxbad" className="w-6 h-auto " />
+        </div>
       </Link>
       <DecoText icon="phone">691 210 637</DecoText>
     </div>
