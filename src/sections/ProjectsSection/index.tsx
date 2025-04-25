@@ -3,6 +3,7 @@ import PROJECT_2 from "@/assets/projects/kseuforia.webp";
 import PROJECT_3 from "@/assets/projects/kuchnia.webp";
 import Image from "next/image";
 import Link from "next/link";
+import FadeInWrapper from "@/components/FadeInWrapper";
 
 const PROJECTS = [
   {
@@ -25,13 +26,15 @@ const PROJECTS = [
 const ProjectsSection = () => (
   <div className="container grid grid-cols-1 md:grid-cols-3 gap-6">
     {PROJECTS.map(({ alt, href, src }, index) => (
-      <Link href={href} key={index} target="_blank">
-        <Image
-          src={src}
-          alt={alt}
-          className="rounded-3xl md:rounded-4xl border border-gray-100"
-        />
-      </Link>
+      <FadeInWrapper key={index} delay={index * 0.5}>
+        <Link href={href} target="_blank">
+          <Image
+            src={src}
+            alt={alt}
+            className="rounded-3xl md:rounded-4xl border border-gray-100"
+          />
+        </Link>
+      </FadeInWrapper>
     ))}
   </div>
 );
