@@ -7,7 +7,7 @@ const Footer = () => (
     <p>Kasia Jankowska 2025, Wszelkie prawa zastrzerzone</p>
 
     <Link href="https://www.linkedin.com/in/kasia-jankowska-5b07941a9/">
-      <Image src={LINKEDIN} alt="LinkedIn" className="size-6" />
+      <Image src={LINKEDIN} alt="LinkedIn Kasia Jankowska" className="size-6" />
     </Link>
   </div>
 );

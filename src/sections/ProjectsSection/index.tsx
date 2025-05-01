@@ -8,17 +8,17 @@ import FadeInWrapper from "@/components/FadeInWrapper";
 const PROJECTS = [
   {
     src: PROJECT_1,
-    alt: "Project 1",
+    alt: "Projekt strony internetowej Klub Sportowy Relaxbad",
     href: "https://www.relaxbad.pl/",
   },
   {
     src: PROJECT_2,
-    alt: "Project 2",
+    alt: "Projekt strony internetowej Klub Sportowy Euforia",
     href: "https://kseuforia.pl/",
   },
   {
     src: PROJECT_3,
-    alt: "Project 3",
+    alt: "Projekt strony internetowej Kateringu Magiczna Kuchnia",
     href: "https://magiczna-kuchnia.pl/",
   },
 ];

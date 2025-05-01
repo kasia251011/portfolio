@@ -23,7 +23,7 @@ const HeroSection = () => (
       <Link href="#projekty">
         <div className="self-center flex flex-col items-center cursor-pointer z-20">
           <p className="mb-5 text-sm text-primary-dark">Ostatnie realizacje</p>
-          <Image src={ARROW} alt="Arrow down" className="animate-bounce" />
+          <Image src={ARROW} alt="Strzałka" className="animate-bounce" />
         </div>
       </Link>
       <DevGirl className="absolute -right-0 w-60 sm:w-80 md:w-100 lg:w-auto -bottom-10 md:bottom-10 lg:bottom-40 z-10 pointer-events-none" />

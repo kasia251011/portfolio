@@ -8,7 +8,11 @@ const Nav = () => (
     <div className="container flex justify-between">
       <Link href="/#!">
         <div className="bg-white p-2 rounded-full">
-          <Image src={LOGO} alt="Logo Relaxbad" className="w-6 h-auto " />
+          <Image
+            src={LOGO}
+            alt="Logo Kasia Jankowska"
+            className="w-6 h-auto "
+          />
         </div>
       </Link>
       <DecoText icon="phone">691 210 637</DecoText>

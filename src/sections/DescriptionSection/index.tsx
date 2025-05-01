@@ -34,8 +34,7 @@ const DescriptionSection = () => (
 
       <Image
         src={WEB_GIRL}
-        role="presentation"
-        alt=""
+        alt="Dziewczyna projektująca strony internetowe"
         className="lg:absolute lg:bottom-70 lg:left-10 w-70 lg:w-100"
       />
       <TextSection
