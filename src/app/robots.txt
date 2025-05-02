@@ -1,0 +1,3 @@
+User-Agent: *
+Allow: /
+Sitemap: https://kasia-jankowska-web.pl/sitemap.xml
