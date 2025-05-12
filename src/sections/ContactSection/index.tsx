@@ -35,7 +35,7 @@ const ContactSection = () => (
       </h2>
 
       <DecoText icon="phone-dark" type="secondary">
-        691 210 627
+        691 210 637
       </DecoText>
       <DecoText variant="outlined">kasia.jankowska.web@gmail.com</DecoText>
     </div>
